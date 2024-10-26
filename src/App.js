@@ -1,12 +1,12 @@
 import './App.css';
-import g from './Mexi Khana.png';
+import logoImg from './img/LOGOMexiKhana.png';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <div className=''>
-          <img src={g}></img>
+          <img src={logoImg} alt='Font Logo'></img>
         </div>
       </header>
     </div>
